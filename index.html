@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PHARMACY MELANIE</title>
+<link rel="icon" type="image/xicon" href="/images/icon.png">
+<img src="/images/logo.png" width="100%" height="290">
+<style>
+  /* Basic styles */
+  body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
+  .navbar { background-color: #333; overflow: hidden; }
+  .navbar a { float: left; display: block; color: white; text-align: center; padding: 14px 16px; text-decoration: none; }
+  .navbar a:hover { background-color: #ddd; color: black; }
+  .main { padding: 16px; }
+  
+  /* Gallery styles */
+  .gallery { display: flex; flex-wrap: wrap; justify-content: space-around; }
+  .gallery img { max-width: 30%; margin: 10px; border-radius: 5px; transition: transform 0.5s ease; }
+  .gallery img:hover { transform: scale(1.1); }
+  
+  /* Pricing table styles */
+  .pricing { margin-top: 20px; }
+  table { width: 100%; border-collapse: collapse; }
+  th, td { text-align: left; padding: 8px; }
+  th { background-color: #f2f2f2; }
+  tr:nth-child(even) { background-color: #f9f9f9; }
+</style>
+</head>
+<body>
+
+<div class="navbar">
+  <a href="#home">Home</a>
+  <a href="#medicine">Medicine</a>
+  <a href="#pricing">Pricing</a>
+</div>
+
+<div class="main" id="home">
+  <h1>Welcome to Our Medicine Information Site</h1>
+  <p>Find information about various medicines, their uses, and prices.</p>
+</div>
+
+<div class="main" id="medicine">
+  <h2>Medicine Gallery</h2>
+  <div class="gallery">
+    <!-- Add your images here -->
+    <img src="/images/madicine 1.jpg" alt="Medicine 1">
+    <img src="/images/medicine 2.jpg" alt="Medicine 2">
+    <img src="/images/medicine 3.jpg" alt="Medicine 3">
+  </div>
+</div>
+
+<div class="main" id="pricing">
+  <h2>Pricing Information</h2>
+  <table>
+    <tr>
+      <th>Medicine</th>
+      <th>Price</th>
+    </tr>
+    <tr>
+      <td>Medicine 1</td>
+      <td>$10</td>
+    </tr>
+    <tr>
+      <td>Medicine 2</td>
+      <td>$20</td>
+    </tr>
+    <tr>
+      <td>Medicine 3</td>
+      <td>$30</td>
+    </tr>
+  </table>
+</div>
+
+<script>
+  // Add your JavaScript here for more interactivity
+</script>
+
+</body>
+</html>
